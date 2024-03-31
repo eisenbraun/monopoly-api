@@ -22,13 +22,28 @@ class Property
                 "name" => $property['name'],
                 "id" => $property['id'],
                 "price" => $property['price'],
-                "rent" => [
-                    "standard" => $property['rent'],
-                    "house_1" => $property['multpliedrent'][0],
-                    "house_2" => $property['multpliedrent'][1],
-                    "house_3" => $property['multpliedrent'][2],
-                    "house_4" => $property['multpliedrent'][3],
-                    "hotel" => $property['multpliedrent'][4]
+                "rent" => $property['rent'],
+                "improved_rents" => [
+                    [
+                        "improvement" => "With 1 House",
+                        "rent" => $property['multpliedrent'][0]
+                    ],
+                    [
+                        "improvement" => "With 2 Houses",
+                        "rent" => $property['multpliedrent'][1]
+                    ],
+                    [
+                        "improvement" => "With 3 Houses",
+                        "rent" => $property['multpliedrent'][2]
+                    ],
+                    [
+                        "improvement" => "With 4 Houses",
+                        "rent" => $property['multpliedrent'][3]
+                    ],
+                    [
+                        "improvement" => "With Hotel",
+                        "rent" => $property['multpliedrent'][4]
+                    ]
                 ],
                 "house_cost" => $property['housecost'],
                 "group" => strtolower($property['group']),
