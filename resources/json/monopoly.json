@@ -72,7 +72,7 @@
         550
       ],
       "housecost": 50,
-      "group": "lightgreen",
+      "group": "lightblue",
       "ownedby": -1,
       "buildings": 0,
       "mortgaged": false,
@@ -100,7 +100,7 @@
         550
       ],
       "housecost": 50,
-      "group": "lightgreen",
+      "group": "lightblue",
       "ownedby": -1,
       "buildings": 0,
       "mortgaged": false,
@@ -128,7 +128,7 @@
         600
       ],
       "housecost": 50,
-      "group": "lightgreen",
+      "group": "lightblue",
       "ownedby": -1,
       "buildings": 0,
       "mortgaged": false,
